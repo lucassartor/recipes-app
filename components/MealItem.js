@@ -12,9 +12,9 @@ const MealItem = props => {
                         </ImageBackground>
                     </View>
                     <View style={{...styles.mealRow, ...styles.mealDetail}}>
-                        <Text>{props.duration} minutes</Text>
-                        <Text>{props.complexity.toUpperCase()}</Text>
-                        <Text>{props.affordability.toUpperCase()}</Text>
+                        <Text style={{fontFamily: 'open-sans'}}>{props.duration} minutes</Text>
+                        <Text style={{fontFamily: 'open-sans'}}>{props.complexity.toUpperCase()}</Text>
+                        <Text style={{fontFamily: 'open-sans'}}>{props.affordability.toUpperCase()}</Text>
                     </View>
                 </View>
             </TouchableOpacity>

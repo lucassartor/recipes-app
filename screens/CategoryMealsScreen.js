@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { CATEGORIES, MEALS } from '../data/dummy-data';
+import {MEALS } from '../data/dummy-data';
+import {CATEGORIES} from '../data/categories';
 import MealList from '../components/MealList';
 
 const CategoryMealScreen = props => {
