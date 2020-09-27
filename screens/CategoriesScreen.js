@@ -1,12 +1,11 @@
 import React from 'react';
 import {
-    FlatList,
-    StyleSheet,
+    FlatList
 } from 'react-native';
 
 import {HeaderButtons, Item} from "react-navigation-header-buttons";
 
-import {CATEGORIES} from '../data/categories';
+import {CATEGORIES} from '../data/dummy-data';
 import CustomHeaderButton from "../components/CustomHeaderButton";
 import CategoryGridTile from '../components/CategoryGridTile';
 
